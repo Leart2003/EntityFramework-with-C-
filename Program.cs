@@ -19,16 +19,16 @@ class Program
 
         switch (choice)
         {
-            case "C":
+            case "Create":
                 CreateProduct(context);
                 break;
-            case "R":
+            case "Read":
                 ReadProducts(context);
                 break;
-            case "U":
+            case "Update":
                 UpdateProduct(context);
                 break;
-            case "D":
+            case "Delete":
                 DeleteProduct(context);
                 break;
             default:
